@@ -10,7 +10,7 @@ python:
     - requirements: docs/requirements.txt
     # Install our package before building
     - method: pip
-    - path: .
+      path: .
 
 sphinx:
   configuration: docs/source/conf.py
